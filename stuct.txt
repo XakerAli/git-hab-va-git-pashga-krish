@@ -1,0 +1,17 @@
+Struct bu Biron narsaning xosalarini o'z ichiga oladigan o'zgaruvchi 
+Masalan: Maktabning nechta xonalari borligi, kattaligi nechta o'quvchilar o'qishi va hokozo...;
+Namuna: 
+#include<iostream>
+using namespace std;
+struct maktab
+{
+	int bollar;
+	string ismlar;
+	int sinf;
+};
+int main()
+{
+	maktab a;
+	cin>>a.bollar>>a.ismlar>>a.sinf;
+	cout<<a.ismlar<<" "<<a.sinf<<" da o'qiydi.";
+}
