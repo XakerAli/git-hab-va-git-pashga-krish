@@ -1,0 +1,12 @@
+define c++ codelarni xohlaganingizni nominu o'zgartirish mumkin
+Namuna:
+#include<iostream>
+#define son int
+#define chiqar cout
+using namespace std;
+int main()
+{
+	son a,b;
+	cin>>a;
+	chiqar<<a;  
+}
